@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="center">
+	<div class="content__feed">
+		{% for post in site.posts %}
+		<div class="content__post post">
+			<h2 class="content__post-heading"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			<p class="content__post-date">{{ post.date | date: "%b %-d, %Y" }}</p>
+			<div class="content__post-promo">{% if post.promo %}{{ post.promo }}{% endif %}</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>

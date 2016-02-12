@@ -1,0 +1,174 @@
+/*
+ * 0. Default
+ * 1. Header
+ * 2. Content
+ * 3. Footer
+ * 4. Post
+*/
+
+/* Default styles */
+body, html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.center {
+  height: 100%;
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+
+  @media only screen and (max-width: 1000px) {
+    width: 100%;
+    padding: 0 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+.clearfix:after,
+.center:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0
+}
+
+
+/* Header styles */
+.header {
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  background-image: url("../img/header__bg--0.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+
+  @media only screen and (max-width: 320px) {
+    height: 100vh;
+  }
+
+  &__overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1f1f1f;
+    opacity: 0.4;
+  }
+
+  &__title {
+    font-size: 70px;
+    text-shadow: 1px 1px RGBA(0, 0, 0, 0.5);
+    padding-top: 250px;
+    margin-bottom: 30px;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    @media only screen and (max-width: 600px) {
+      font-size: 36px;
+      margin-bottom: 5px;
+    }
+
+    @media only screen and (max-width: 320px) {
+      margin-bottom: 0px;
+    }
+  }
+
+  &__subtitle {
+    font-size: 30px;
+    text-shadow: 1px 1px RGBA(0, 0, 0, 0.5);
+
+    @media only screen and (max-width: 600px) {
+      font-size: 20px;
+    }
+  }
+
+  &__created {
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    color: white;
+    font-size: 13px;
+
+    i {
+      font-size: 16px;
+    }
+  }
+}
+
+/* Content styles */
+.content {
+  padding: 130px 0;
+
+  @media only screen and (max-width: 320px) {
+    padding: 50px 0;
+  }
+
+  &__post {
+    margin-bottom: 100px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+    
+    &-heading {
+      margin-bottom: 5px;
+      a {
+        color: black;
+      }
+    }
+
+    &-date {
+      font-size: 12px;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+/* Footer styles */
+.footer {
+  border-top: 1px #ccc solid;
+  padding: 40px 0;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+/* Post styles */
+.post {
+  &__heading {
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+
+    @media only screen and (max-width: 320px) {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__content {
+    line-height: 2;
+
+    @media only screen and (max-width: 320px) {
+      font-size: 14px;
+      line-height: 1.8;
+    }
+  }
+}
