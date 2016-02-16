@@ -11,8 +11,8 @@ promo: "Речь пойдет о моем скромном опыте разра
 
 Ссылки внутри поста:
 {% highlight ruby %}
-[Click me][linkVariable]
-[linkVariable]: https://infonautica.github.io/
+[Click me][linkVariable] # Использование переменной в тексте
+[linkVariable]: https://infonautica.github.io/ # Название переменной и ее значение
 {% endhighlight %}
 
 Добавление изображений в пост:
@@ -22,9 +22,9 @@ promo: "Речь пойдет о моем скромном опыте разра
 
 Подсветка/выделение слова в тексте:
 {% highlight ruby %}
-Ordinary text `lorem ipsum` another text
+Ordinary text `lorem ipsum` another text # Текст внутри этих кавычек-апострофов будет выделен
 {% endhighlight %}
 
-Надеюсь, что данный перечень, который к слову будет пополнятся, поможет не только мне, но и кому-нибудь еще.
+Надеюсь, что данный перечень, который к слову будет пополнятся, поможет не только мне, но и кому-нибудь еще. Для всего остального есть официальная документация.
 
 [githubPages]: https://pages.github.com/
