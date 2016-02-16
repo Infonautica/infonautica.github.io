@@ -20,7 +20,7 @@ promo: "Речь пойдет о моем скромном опыте разра
 ![My helpful screenshot]({ site.url }/assets/screenshot.jpg) # Использовать двойные фигурные скобки
 {% endhighlight %}
 
-Выделение слова в тексте:
+Подсветка/выделение слова в тексте:
 {% highlight ruby %}
 Ordinary text `lorem ipsum` another text
 {% endhighlight %}
