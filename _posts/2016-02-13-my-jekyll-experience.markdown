@@ -17,7 +17,7 @@ promo: "Речь пойдет о моем скромном опыте разра
 
 Добавление изображений в пост:
 {% highlight ruby %}
-![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg)
+![My helpful screenshot]({{ siite.url }}/assets/screenshot.jpg) # Использовать site.url
 {% endhighlight %}
 
 [githubPages]: https://pages.github.com/
