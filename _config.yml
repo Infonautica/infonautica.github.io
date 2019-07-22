@@ -14,6 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://infonautica.github.io" # the base hostname & protocol for your site
 twitter_username: infonautica
 github_username:  infonautica
+excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
