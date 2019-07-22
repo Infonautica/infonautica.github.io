@@ -7,9 +7,9 @@
 
 # Site settings
 title: Infonautica
-subtitle: "Minified as never before"
+subtitle: "Developer. Photograph. Musician"
 email: leonid989@gmail.com
-description: Infonautica created with Jekyll 
+description: created with Jekyll 
 baseurl: "" # the subpath of your site, e.g. /blog 
 url: "http://infonautica.github.io" # the base hostname & protocol for your site
 twitter_username: infonautica
