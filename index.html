@@ -7,7 +7,7 @@ layout: default
 		<div class="content__post post">
 			<h2 class="content__post-heading"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			<p class="content__post-date">{{ post.date | date: "%b %-d, %Y" }}</p>
-			<div class="content__post-promo">{% if post.promo %}{{ post.promo }}{% endif %}</div>
+			<div class="content__post-promo">{{ post.excerpt }}</div>
 		</div>
 		{% endfor %}
 	</div>
