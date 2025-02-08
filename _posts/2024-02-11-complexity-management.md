@@ -5,6 +5,8 @@ date: 2024-02-11 12:00:00 +0
 categories: blog
 ---
 
+![A bunch of wires tangled together](/img/post/complexity.webp)
+
 Working on a long time project the importance of decisions that minimize tomorrow’s work is greater every day. Projects tend to grow in size, capabilities, and obviously complexity.
 
 Let’s quickly see what the complexity is, how to deal with it, and most importantly apply something practical to the code. Code examples provided in this article are in TypeScript, either NodeJS or React.
@@ -411,4 +413,3 @@ There’s still much more to learn about complexity and how to operate it in the
 - “Programming Complexity” on [Wikipedia](https://en.wikipedia.org/wiki/Programming_complexity)
 - “Catalog of Design Patterns” on [Refactoring Guru](https://refactoring.guru/design-patterns/catalog)
 - “Lecture Notes on Managing Complexity” from [Stanford](https://web.stanford.edu/~ouster/cgi-bin/cs190-spring15/lecture.php?topic=complexity)
-
