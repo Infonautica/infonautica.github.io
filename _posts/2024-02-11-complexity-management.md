@@ -5,13 +5,13 @@ date: 2024-02-11 12:00:00 +0
 categories: blog
 ---
 
-![A bunch of wires tangled together](/img/post/complexity.webp)
-
 Working on a long time project the importance of decisions that minimize tomorrow’s work is greater every day. Projects tend to grow in size, capabilities, and obviously complexity.
 
 Let’s quickly see what the complexity is, how to deal with it, and most importantly apply something practical to the code. Code examples provided in this article are in TypeScript, either NodeJS or React.
 
 <!--more-->
+
+![A bunch of wires tangled together](/img/post/complexity.webp)
 
 ## What is complexity
 

@@ -5,11 +5,11 @@ date: 2025-02-08 12:00:00 +0
 categories: blog
 ---
 
-![Simplified visualization of an atom with electrons spinning around it](/img/post/atom.gif)
-
 Once i decided to re-create periodic table of elements in web. One particular feature i really wanted to implement is a visualization of an atom. After brief searching i figured that there are existing solutions, but they’re old and problematic to use, so i decided to make one from scratch.
 
 <!--more-->
+
+![Simplified visualization of an atom with electrons spinning around it](/img/post/atom.gif)
 
 Please note that steps below do not include installation commands, file structures and similar smaller details.
 
