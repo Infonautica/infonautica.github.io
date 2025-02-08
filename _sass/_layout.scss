@@ -163,11 +163,9 @@ html {
   }
 
   &__content {
-    line-height: 2;
-
     @media only screen and (max-width: 320px) {
       font-size: 14px;
-      line-height: 1.8;
+      /* line-height: 1.8; */
     }
   }
 }
