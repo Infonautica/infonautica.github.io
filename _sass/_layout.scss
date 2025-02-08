@@ -7,19 +7,20 @@
 */
 
 /* Default styles */
-body, html {
-  font-family: 'Open Sans', sans-serif;
+body,
+html {
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
 
 .center {
   height: 100%;
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
   position: relative;
 
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 1200px) {
     width: 100%;
     padding: 0 30px;
     -webkit-box-sizing: border-box;
@@ -37,9 +38,8 @@ body, html {
   clear: both;
   visibility: hidden;
   line-height: 0;
-  height: 0
+  height: 0;
 }
-
 
 /* Header styles */
 .header {
@@ -48,7 +48,7 @@ body, html {
   overflow: hidden;
   color: white;
   text-align: center;
-  background-image: url("../img/IMG_0086.jpg");
+  background-image: url("../img/header__bg--0.jpg");
   background-position: center top;
   background-repeat: no-repeat;
 
@@ -123,7 +123,7 @@ body, html {
     &:last-child {
       margin-bottom: 0;
     }
-    
+
     &-heading {
       margin-bottom: 5px;
       a {
