@@ -33,7 +33,7 @@ I didn’t have any software to draw it myself, so i simply asked ChatGPT:
 
 And received this elegant solution:
 
-```pug
+```jade
 svg(width='200', height='200', viewBox='0 0 200 200', xmlns='http://www.w3.org/2000/svg')
   // Nucleus
   circle(cx='100', cy='100', r='20', fill='#FFCC00')
