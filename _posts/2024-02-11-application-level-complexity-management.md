@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Complexity Management in Software Development (Typescript)"
+title: "Application Level Complexity Management in Typescript"
 date: 2024-02-11 12:00:00 +0
 categories: blog
 ---
