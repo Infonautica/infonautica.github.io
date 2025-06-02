@@ -51,6 +51,7 @@ html {
   background-image: url("../img/header__bg--0.jpg");
   background-position: center top;
   background-repeat: no-repeat;
+  background-size: cover;
 
   @media only screen and (max-width: 320px) {
     height: 100vh;
